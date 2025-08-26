@@ -19,7 +19,7 @@ export class Invertexto {
       })
     );
   }
-  
+
   getByCep(cep: string): Observable<any>{
     const url = `https://api.invertexto.com/v1/cep/${cep}?token=${this._token}`;
     return this.http.get<any>(url).pipe(

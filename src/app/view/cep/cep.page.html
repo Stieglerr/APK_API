@@ -1,13 +1,19 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>cep</ion-title>
+    <ion-buttons slot="start">
+      <ion-button fill="clear" (click)="goToHome()">
+        <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>
+      <img src="https://cdn.invertexto.com/img/invertexto.png" 
+           alt="LogoInvertexto" 
+           class="logo-invertexto">
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
+
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">cep</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  
 </ion-content>
